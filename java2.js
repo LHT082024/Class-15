@@ -15,3 +15,4 @@ else {
      console.log("Dette er ikke et tall");
 } 
 
+
