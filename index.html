@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <!--<script type="module" src="script.js"></script>-->
-  <script type="module" src="java2.js"></script>
+  <script type="module" src="script.js"></script>
+  <!--<script type="module" src="java2.js"></script>-->
   <title>class-15</title>
 </head>
 
@@ -23,8 +23,23 @@ List
   </header>
 
   <main>
+    <!-- det som gir oss muligheten til å skrive ting inn på nettsiden-->
   <form>
     <input id="inputValue" type="text">
+
+    <label for="fromValue">Konverter fra</label>
+    <select name="fromValue" id="fromValue">
+      <option value="CM">Cm</option>
+      <option value="M">M</option>
+      <option value="KM">Km</option>
+    </select>
+
+    <label for="toValue">Konverter til</label>
+    <select name="toValue" id="toValue">
+      <option value="CM">Cm</option>
+      <option value="M">M</option>
+      <option value="KM">Km</option>
+    </select>
   </form>
 
   <button id="submittValue">Konventer</button>
