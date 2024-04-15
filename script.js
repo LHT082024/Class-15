@@ -8,28 +8,31 @@ console.log(submittValue);
 //event listener registerer når eg trykker på knappen
 submittValue.addEventListener("click", () => {
 
-    //vairabel som henter ID "inputValue" fra HTML
+    //vairabel som henter ID "inputValue" fra HTML man kan se det er ID grunnet #
     const inputValue = document.querySelector("#inputValue").value;
     console.log(inputValue);
 
 
-    //vairabel som henter ID "displayValue" fra HTML
+    //vairabel som henter ID "displayValue" fra HTML man kan se det er ID grunnet #
     const displayValue = document.querySelector("#displayValue");
     console.log(displayValue);
     
     displayValue.textContent = inputValue;
 
+
+    //vairabel som henter ID "fromValue" fra HTML man kan se det er ID grunnet #
     const fromValue = document.querySelector("#fromValue").value;
     console.log(fromValue);
 
+    //vairabel som henter ID "toValue" fra HTML man kan se det er ID grunnet #
     const toValue = document.querySelector("#toValue").value;
     console.log(toValue);
 
     let result;
 
     //Kalkulering 
-    if (fromValue === "CM" & toValue === "KM"){
-        result = inputValue / 1000;
+    if (fromValue === "CM" & toValue === "M"){
+        result = inputValue / 100;
     }
     else if (fromValue === "CM" & toValue === "KM") { 
         result = inputValue / 100000;
