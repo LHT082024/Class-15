@@ -7,9 +7,16 @@ header{
 form{
     display: flex;
     justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 div{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+}
+
+#displayValue{
+    display: flex;
+    justify-content: center;
 }
